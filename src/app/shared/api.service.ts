@@ -29,6 +29,6 @@ export abstract class ApiService {
   }
 
   protected getEndpoint(): string {
-    return '';
+    return 'cliente';
   }
 }

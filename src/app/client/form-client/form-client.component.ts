@@ -9,15 +9,7 @@ import { ClientService } from '../shared/client.service';
 })
 export class FormClientComponent implements OnInit {
 
-  // {
-  //   name: String,
-  //   telefone: String,
-  //   dataNascimento: Date,
-  //   endereco: String,
-  //   email: String,
-  //   cpf: String
-  // }
-
+  
   client: any = {
       name: '',
       telefone: '',

@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ListClientComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit() {
   }
 
