@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export abstract class ApiService {
 
-  private readonly API: string = 'http://localhost:8080/';
+  private readonly API: string = 'http://localhost:4200/api/';
 
   constructor(private httpClient: HttpClient) { 
   }
@@ -29,6 +29,6 @@ export abstract class ApiService {
   }
 
   protected getEndpoint(): string {
-    return 'cliente';
+    return 'clientes';
   }
 }
