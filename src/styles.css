@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(bg-site6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    background-position: unset;
+}
+
+#logo-01{
+    height: 80%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+a{
+    color: yellow;
+}

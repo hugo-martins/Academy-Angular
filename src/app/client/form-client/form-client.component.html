@@ -1,23 +1,66 @@
-<p>
-  form-client works!
+<html>
 
-</p>
+<head>
+<title>Cliente</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="form">
+<div class="tabelatitulo">
+<h2>
+  <table class="titulo">
+    <tr>
+  
+      <td>
+        <img class = icone src="http://www.ipet.ac.mz/views/default/img/icons/add_list.png">
+      </td>
+  
+      <td>
+          Cadastro De Cliente
+      </td>
+    </tr>
+  
+  </table>
+
+</h2>
+<br>
+</div>
+
+<div class="background-form">
 <form #clientForm="ngForm" (ngSubmit)="onSubmit()">
 
-  <label for="name">Name:</label>
-  <input id="name" name="name" type="text" [(ngModel)]="client.name">
-  <label for="phone">Phone:</label>
-  <input id="phone" name="telefone" type="number" [(ngModel)]="client.telefone">
-  <label for="born Date">born Date:</label>
-  <input id="born Date" name="dataNascimento" type="date" [(ngModel)]="client.dataNascimento">
-  <label for="address">Address:</label>
-  <input id="address" name="endereco " type="text" [(ngModel)]="client.endereco">
-  <label for="email">Email:</label>
-  <input id="email" name="email" type="email" [(ngModel)]="client.email">
-  <label for="cpf">CPF:</label>
-  <input id="cpf" name="cpf" type="text" [(ngModel)]="client.cpf">
-
-  <br>
-  <button type="submit">Save</button>
-
-</form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputnome">Nome </label>
+            <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo" [(ngModel)]="client.name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputtelefone">Telefone</label>
+            <input type="text" class="form-control" id="inputTelefone" placeholder="123456789"[(ngModel)]="client.telefone">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEndereco">Endereço</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Avenida Recife, 231, Ipsep"[(ngModel)]="client.endereco">
+        </div>
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="text" class="form-control" id="inputEmail" placeholder="meunome@exemplo.com"[(ngModel)]="client.email">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Cadastro de Pessoa Física (CPF)</label>
+            <input type="password" class="form-control" id="inputCPF" placeholder="00000000000"[(ngModel)]="client.cpf">
+          </div>
+          <div class="form-group col-md-4">
+              <label for="born Date">Data de Nascimento:</label>
+              <input id="born Date" name="dataNascimento" class="form-control" type="date" [(ngModel)]="client.dataNascimento">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+      </form>
+ </div>
+</div>
+</body>
+</html>

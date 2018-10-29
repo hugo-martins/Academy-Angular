@@ -1,0 +1,568 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/webpack/hot sync ^\\.\\/log$":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./log": "./node_modules/webpack/hot/log.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
+
+/***/ }),
+
+/***/ "./src/$$_lazy_route_resource lazy recursive":
+/*!**********************************************************!*\
+  !*** ./src/$$_lazy_route_resource lazy namespace object ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/app.component.html":
+/*!************************************!*\
+  !*** ./src/app/app.component.html ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<div style=\"text-align:center\">\r\n  <h1>\r\n    Welcome to {{ title }}!\r\n  </h1>\r\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\r\n</div>\r\n<h2>Here are some links to help you start: </h2>\r\n<ul>\r\n  <li>\r\n    <img src=\"Downloads/instagram.jpg\">\r\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://instagram.com/dougemiliano\">Minha Pomba</a></h2>\r\n  </li>\r\n  <li>\r\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://github.com/angular/angular-cli/wiki\">CLI Documentation</a></h2>\r\n  </li>\r\n  <li>\r\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\r\n  </li>\r\n</ul>\r\n\r\n<router-outlet></router-outlet>"
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var AppComponent = /** @class */ (function () {
+    function AppComponent() {
+        this.title = 'Academy';
+    }
+    AppComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-root',
+            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
+            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+        })
+    ], AppComponent);
+    return AppComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _client_form_client_form_client_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./client/form-client/form-client.component */ "./src/app/client/form-client/form-client.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _client_view_client_view_client_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./client/view-client/view-client.component */ "./src/app/client/view-client/view-client.component.ts");
+/* harmony import */ var _client_list_client_list_client_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./client/list-client/list-client.component */ "./src/app/client/list-client/list-client.component.ts");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            declarations: [
+                _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"],
+                _client_form_client_form_client_component__WEBPACK_IMPORTED_MODULE_3__["FormClientComponent"],
+                _client_view_client_view_client_component__WEBPACK_IMPORTED_MODULE_5__["ViewClientComponent"],
+                _client_list_client_list_client_component__WEBPACK_IMPORTED_MODULE_6__["ListClientComponent"]
+            ],
+            imports: [
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormsModule"],
+                _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClientModule"]
+            ],
+            providers: [],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/client/form-client/form-client.component.css":
+/*!**************************************************************!*\
+  !*** ./src/app/client/form-client/form-client.component.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/* You can add global styles to this file, and also import other style files */\r\n\r\nh3{\r\n    border-bottom: 2px rgb(223, 223, 223);\r\n    font-weight: bolder;\r\n    font-family: 'Arial Black', Arial, Helvetica, sans-serif;\r\n    \r\n}\r\n\r\n.icone{\r\n    height: 50px;\r\n}\r\n\r\n.form{\r\nmargin: 7%;\r\npadding: 2%;\r\nbackground-color:white;\r\nopacity: 0.8;\r\n}\r\n\r\n"
+
+/***/ }),
+
+/***/ "./src/app/client/form-client/form-client.component.html":
+/*!***************************************************************!*\
+  !*** ./src/app/client/form-client/form-client.component.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<html>\r\n\r\n<head>\r\n<title>Cliente</title>\r\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\r\n</head>\r\n\r\n<body>\r\n<div class=\"form\">\r\n<div class=\"tabelatitulo\">\r\n<h2>\r\n  <table class=\"titulo\">\r\n    <tr>\r\n  \r\n      <td>\r\n        <img class = icone src=\"http://www.ipet.ac.mz/views/default/img/icons/add_list.png\">\r\n      </td>\r\n  \r\n      <td>\r\n          Cadastro De Cliente\r\n      </td>\r\n    </tr>\r\n  \r\n  </table>\r\n\r\n</h2>\r\n<br>\r\n</div>\r\n\r\n<div class=\"background-form\">\r\n<form #clientForm=\"ngForm\" (ngSubmit)=\"onSubmit()\">\r\n\r\n        <div class=\"form-row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"inputnome\">Nome </label>\r\n            <input type=\"text\" class=\"form-control\" id=\"inputNome\" placeholder=\"Nome Completo\" [(ngModel)]=\"client.name\">\r\n          </div>\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"inputtelefone\">Telefone</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"inputTelefone\" placeholder=\"123456789\"[(ngModel)]=\"client.telefone\">\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group\">\r\n          <label for=\"inputEndereco\">Endereço</label>\r\n          <input type=\"text\" class=\"form-control\" id=\"inputAddress\" placeholder=\"Avenida Recife, 231, Ipsep\"[(ngModel)]=\"client.endereco\">\r\n        </div>\r\n        <div class=\"form-group\">\r\n          <label for=\"inputEmail\">Email</label>\r\n          <input type=\"text\" class=\"form-control\" id=\"inputEmail\" placeholder=\"meunome@exemplo.com\"[(ngModel)]=\"client.email\">\r\n        </div>\r\n        <div class=\"form-row\">\r\n          <div class=\"form-group col-md-6\">\r\n            <label for=\"inputCity\">Cadastro de Pessoa Física (CPF)</label>\r\n            <input type=\"password\" class=\"form-control\" id=\"inputCPF\" placeholder=\"00000000000\"[(ngModel)]=\"client.cpf\">\r\n          </div>\r\n          <div class=\"form-group col-md-4\">\r\n              <label for=\"born Date\">Data de Nascimento:</label>\r\n              <input id=\"born Date\" name=\"dataNascimento\" class=\"form-control\" type=\"date\" [(ngModel)]=\"client.dataNascimento\">\r\n            </div>\r\n        </div>\r\n        <button type=\"submit\" class=\"btn btn-primary\">Salvar</button>\r\n      </form>\r\n </div>\r\n</div>\r\n</body>\r\n</html>"
+
+/***/ }),
+
+/***/ "./src/app/client/form-client/form-client.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/client/form-client/form-client.component.ts ***!
+  \*************************************************************/
+/*! exports provided: FormClientComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FormClientComponent", function() { return FormClientComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _shared_client_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../shared/client.service */ "./src/app/client/shared/client.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var FormClientComponent = /** @class */ (function () {
+    function FormClientComponent(clientService) {
+        this.clientService = clientService;
+        // {
+        //   name: String,
+        //   telefone: String,
+        //   dataNascimento: Date,
+        //   endereco: String,
+        //   email: String,
+        //   cpf: String
+        // }
+        this.client = {
+            name: '',
+            telefone: '',
+            dataNascimento: null,
+            endereco: '',
+            email: '',
+            cpf: ''
+        };
+    }
+    FormClientComponent.prototype.ngOnInit = function () {
+    };
+    FormClientComponent.prototype.onSubmit = function () {
+        console.log(this.client);
+        this.clientService.post(this.client).subscribe(function (result) {
+            console.log(result);
+        });
+    };
+    FormClientComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-form-client',
+            template: __webpack_require__(/*! ./form-client.component.html */ "./src/app/client/form-client/form-client.component.html"),
+            styles: [__webpack_require__(/*! ./form-client.component.css */ "./src/app/client/form-client/form-client.component.css")]
+        }),
+        __metadata("design:paramtypes", [_shared_client_service__WEBPACK_IMPORTED_MODULE_1__["ClientService"]])
+    ], FormClientComponent);
+    return FormClientComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/client/list-client/list-client.component.css":
+/*!**************************************************************!*\
+  !*** ./src/app/client/list-client/list-client.component.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/client/list-client/list-client.component.html":
+/*!***************************************************************!*\
+  !*** ./src/app/client/list-client/list-client.component.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\r\n  list-client works!\r\n</p>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/client/list-client/list-client.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/client/list-client/list-client.component.ts ***!
+  \*************************************************************/
+/*! exports provided: ListClientComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListClientComponent", function() { return ListClientComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ListClientComponent = /** @class */ (function () {
+    function ListClientComponent() {
+    }
+    ListClientComponent.prototype.ngOnInit = function () {
+    };
+    ListClientComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-list-client',
+            template: __webpack_require__(/*! ./list-client.component.html */ "./src/app/client/list-client/list-client.component.html"),
+            styles: [__webpack_require__(/*! ./list-client.component.css */ "./src/app/client/list-client/list-client.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ListClientComponent);
+    return ListClientComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/client/shared/client.service.ts":
+/*!*************************************************!*\
+  !*** ./src/app/client/shared/client.service.ts ***!
+  \*************************************************/
+/*! exports provided: ClientService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ClientService", function() { return ClientService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var src_app_shared_api_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/shared/api.service */ "./src/app/shared/api.service.ts");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+var ClientService = /** @class */ (function (_super) {
+    __extends(ClientService, _super);
+    function ClientService() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ClientService.prototype.getEndpoint = function () {
+        return 'cliente';
+    };
+    ClientService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        })
+    ], ClientService);
+    return ClientService;
+}(src_app_shared_api_service__WEBPACK_IMPORTED_MODULE_1__["ApiService"]));
+
+
+
+/***/ }),
+
+/***/ "./src/app/client/view-client/view-client.component.css":
+/*!**************************************************************!*\
+  !*** ./src/app/client/view-client/view-client.component.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/client/view-client/view-client.component.html":
+/*!***************************************************************!*\
+  !*** ./src/app/client/view-client/view-client.component.html ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\r\n  view-client works!\r\n</p>\r\n"
+
+/***/ }),
+
+/***/ "./src/app/client/view-client/view-client.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/client/view-client/view-client.component.ts ***!
+  \*************************************************************/
+/*! exports provided: ViewClientComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewClientComponent", function() { return ViewClientComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ViewClientComponent = /** @class */ (function () {
+    function ViewClientComponent() {
+    }
+    ViewClientComponent.prototype.ngOnInit = function () {
+    };
+    ViewClientComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-view-client',
+            template: __webpack_require__(/*! ./view-client.component.html */ "./src/app/client/view-client/view-client.component.html"),
+            styles: [__webpack_require__(/*! ./view-client.component.css */ "./src/app/client/view-client/view-client.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ViewClientComponent);
+    return ViewClientComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/api.service.ts":
+/*!***************************************!*\
+  !*** ./src/app/shared/api.service.ts ***!
+  \***************************************/
+/*! exports provided: ApiService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ApiService", function() { return ApiService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ApiService = /** @class */ (function () {
+    function ApiService(httpClient) {
+        this.httpClient = httpClient;
+        this.API = 'http://localhost:8080/';
+    }
+    ApiService.prototype.get = function () {
+        return this.httpClient.get(this.API + this.getEndpoint());
+    };
+    ApiService.prototype.getOne = function (id) {
+        return this.httpClient.get(this.API + this.getEndpoint() + '/' + id);
+    };
+    ApiService.prototype.post = function (body) {
+        return this.httpClient.post(this.API + this.getEndpoint(), body);
+    };
+    ApiService.prototype.put = function (body, id) {
+        return this.httpClient.put(this.API + this.getEndpoint() + '/' + id, body);
+    };
+    ApiService.prototype.delete = function (id) {
+        return this.httpClient.delete(this.API + this.getEndpoint() + '/' + id);
+    };
+    ApiService.prototype.getEndpoint = function () {
+        return '';
+    };
+    ApiService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
+    ], ApiService);
+    return ApiService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+var environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(function (err) { return console.error(err); });
+
+
+/***/ }),
+
+/***/ 0:
+/*!************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:0 ./src/main.ts ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\dougl\Desktop\Academy-Angular\node_modules\webpack-dev-server\client\index.js?http://0.0.0.0:0 */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:0");
+module.exports = __webpack_require__(/*! C:\Users\dougl\Desktop\Academy-Angular\src\main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map
