@@ -1,26 +1,45 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { FormClientComponent } from './client/form-client/form-client.component';
-import { FormsModule } from '@angular/forms';
-import { ViewClientComponent } from './client/view-client/view-client.component';
-import { ListClientComponent } from './client/list-client/list-client.component';
+import { AppService } from './app.service';
+
+
+import { routes } from './routes';
+import { ListFuncionarioComponent } from './funcionario/list-funcionario/list-funcionario.component';
+import { NewFuncionarioComponent } from './funcionario/new-funcionario/new-funcionario.component';
+import { FuncionarioService } from './funcionario/funcionario.service';
+import { ShowFuncionarioComponent } from './funcionario/show-funcionario/show-funcionario.component';
+import { ApiService } from './api.service';
 import { HttpClientModule } from '@angular/common/http';
+import { EditFuncionarioComponent } from './funcionario/edit-funcionario/edit-funcionario.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormClientComponent,
-    ViewClientComponent,
-    ListClientComponent
+    ListFuncionarioComponent,
+    NewFuncionarioComponent,
+    ShowFuncionarioComponent,
+    EditFuncionarioComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpModule,
+    HttpClientModule,
+    RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    AppService,
+    FuncionarioService,
+    ApiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
