@@ -1,0 +1,22 @@
+<div class="container-fluid"><h1>Edit funcionarios</h1>
+
+  <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+      <div class="form-group">
+          <label for="funcionarios_name">name</label>
+          <input type="text" class="form-control" id="funcionarios_name" name="name" placeholder="name completo" [ngModel]="funcionarios.name">
+      </div>
+      <div class="form-group">
+          <label for="funcionarios_dataNascimento">Data de Nascimentp</label>
+          <input type="text" class="form-control" id="funcionarios_dataNascimento" name="dataNascimento" placeholder="DD/MM/AAAA" [ngModel]="funcionarios.dataNascimento">
+      </div>
+      <div class="form-group">
+          <label for="funcionarios_cpf">CPF</label>
+          <input type="text" class="form-control" id="funcionarios_cpf" name="cpf" placeholder="CPF" [ngModel]="funcionarios.cpf">
+      </div>
+     
+    
+      <button type="submit" class="btn btn-primary">Atualizar</button>
+  </form>
+  
+  <a [routerLink]="['/funcionarios']">Voltar</a>
+  </div>
