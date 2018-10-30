@@ -1,0 +1,18 @@
+<div class="container-fluid"><div id="showPanel" *ngIf="equipamento">
+  <h1>Dados de {{equipamento.nome}}</h1>
+  <p>
+    <strong>Peso:</strong>
+    {{equipamento.peso}}
+  </p>
+  <p>
+  <strong>Tipo:</strong>
+    {{equipamento.tipo}}
+  </p>
+  <p>
+  <strong>Descricao:</strong>
+    {{equipamento.descricao}}
+  </p>
+  
+  <a href="#" (click)="edit()">Editar</a> | <a href="#" (click)="back()">Voltar</a>
+</div>
+</div>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastrar Equipamento</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<form #clientForm="ngForm" (ngSubmit)="onSubmit()">
+  
+  <label for="name">Name:</label>
+  <input id="name" name="name" type="text" [(ngModel)]="equipamento.name">
+  <label for="peso">Peso:</label>
+  <input id="peso" name="peso" type="number" [(ngModel)]="equipamento.peso">
+  <label for="tipo">Tipo:</label>
+  <input id="tipo" name="tipo" type="text" [(ngModel)]="equipamento.tipo">
+  <label for="descricao">Descrição:</label>
+  <input id="descricao" name="descricao " type="text" [(ngModel)]="equipamento.descricao">
+  
+  <br>
+  <button type="submit">Save</button>
+  
+</form>
+
+
+</body>
+</html>
