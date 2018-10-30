@@ -1,0 +1,18 @@
+<div class="container-fluid"><div id="showPanel" *ngIf="academia">
+    <h1>Dados de {{academia.nome}}</h1>
+    <p>
+        <strong>Id:</strong>
+        {{academia.id}}
+    </p>
+    <p>
+        <strong>Contato:</strong>
+        {{academia.contato}}
+    </p>
+    <p>
+        <strong>Endereco:</strong>
+        {{academia.endereco}}
+    </p>
+        
+    <a href="#" (click)="edit()">Editar</a> | <a href="#" (click)="back()">Voltar</a>
+    </div>
+</div>

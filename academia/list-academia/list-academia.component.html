@@ -1,0 +1,21 @@
+<h1>Books</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th id="nameHeader">Name</th>
+      <th id="authorHeader">Author</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let academia of academia">
+      <td>{{equipamento.name}}</td>
+      <td>{{equipamento.id}}</td>
+      <td><a href="#" (click)="show(academia.id)">Show</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<a [routerLink]="['/academia', 'new']">New Book</a>

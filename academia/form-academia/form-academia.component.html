@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastrar Academia</title>
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<form #clientForm="ngForm" (ngSubmit)="onSubmit()">
+  
+  <label for="id">Id</label>:</label>
+  <input id="id" name="id" type="number" [(ngModel)]="academia.id">
+
+  <label for="name">Name:</label>
+  <input id="name" name="name" type="text" [(ngModel)]="academia.name">
+
+  <label for="contato">Contato:</label>
+  <input id="contato" name="contato" type="text" [(ngModel)]="contato.tipo">
+
+  <label for="endereco">Endereco:</label>
+  <input id="endereco" name="endereco" type="text" [(ngModel)]="academia.endereco">
+  
+  <br>
+  <button type="submit">Save</button>
+  
+</form>
+</body>
+</html>
