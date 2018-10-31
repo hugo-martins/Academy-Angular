@@ -1,0 +1,26 @@
+<div class="container-fluid"><h1>Edit Academia</h1>
+
+    <form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+      
+        <div class="form-group">
+          <label for="id">Id:</label>
+          <input type="text" class="form-control" id="academia_id" name="id" placeholder="Id" [(ngModel)]="academia.id">
+        </div>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="academia_name" name="Name" placeholder="text" [(ngModel)]="academia.name">
+        </div>
+        <div class="form-group">
+          <label for="contato">Contato:</label>
+          <input type="text" class="form-control" id="academia_contato" name="Contato" placeholder="text" [(ngModel)]="academia.contato">
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="text" class="form-control" id="academia_address" name="Endereco " placeholder="text" [(ngModel)]="academia.endereco">
+        </div>
+      
+        <button type="submit" class="btn btn-primary">Atualizar</button>
+    </form>
+    
+    <a [routerLink]="['/academias']">Voltar</a>
+  </div>
