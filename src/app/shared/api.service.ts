@@ -29,9 +29,10 @@ export abstract class ApiService {
   }
 
   protected getEndpoint(): string {
-    if( string == equipamentos ){
+    if('equipamentos'){
       return 'equipamentos';
-    } elif if ( string == academias ){
+    } 
+    if ('academias' ){
       return 'academias';
     }
   }
