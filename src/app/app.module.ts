@@ -18,6 +18,10 @@ import { FormEquipamentoComponent } from './equipamento/form-equipamento/form-eq
 import { ViewEquipamentoComponent } from './equipamento/view-equipamento/view-equipamento.component';
 import { ListEquipamentoComponent } from './equipamento/list-equipamento/list-equipamento.component';
 
+import { ListAcademiaComponent } from './academia/list-academia/list-academia.component';
+import { FormAcademiaComponent } from './academia/form-academia/form-academia.component';
+import { ViewAcademiaComponent } from './academia/view-academia/view-academia.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +30,10 @@ import { ListEquipamentoComponent } from './equipamento/list-equipamento/list-eq
     ListClientComponent,
     FormEquipamentoComponent,
     ViewEquipamentoComponent,
-    ListEquipamentoComponent
+    ListEquipamentoComponent,
+    ListAcademiaComponent,
+    FormAcademiaComponent,
+    ViewAcademiaComponent
   ],
   imports: [
     BrowserModule,
