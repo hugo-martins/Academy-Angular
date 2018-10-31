@@ -11,6 +11,11 @@ import { ListEquipamentoComponent } from './equipamento/list-equipamento/list-eq
 import { FormEquipamentoComponent } from './equipamento/form-equipamento/form-equipamento.component';
 import { ViewEquipamentoComponent } from './equipamento/view-equipamento/view-equipamento.component';
 
+import { AcademiaService } from '../app/academia/shared/academia.service';
+import { ListAcademiaComponent } from './academia/list-academia/list-academia.component';
+import { FormAcademiaComponent } from './academia/form-academia/form-academia.component';
+import { ViewAcademiaComponent } from './academia/view-academia/view-academia.component';
+
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
@@ -18,7 +23,10 @@ describe('AppComponent', () => {
         AppComponent,
         ListEquipamentoComponent,
         FormEquipamentoComponent,
-        ViewEquipamentoComponent
+        ViewEquipamentoComponent,
+        ListAcademiaComponent,
+        FormAcademiaComponent,
+        ViewAcademiaComponent
       ],
       imports:[
         RouterModule.forRoot(routes),
@@ -27,6 +35,7 @@ describe('AppComponent', () => {
       providers: [
         {provide: APP_BASE_HREF, useValue : '/' },
         EquipamentoService,
+        AcademiaService,
         AppService
 ]
     }).compileComponents();
